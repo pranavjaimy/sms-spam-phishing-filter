@@ -253,20 +253,10 @@ st.markdown(
     opacity: 1 !important;
 }
     </style>
-
-    <!-- Nature decorations -->
-    <div class="nature-decoration leaf-left">🌿</div>
-    <div class="nature-decoration leaf-right">🍃</div>
-    <div class="nature-decoration leaf-bottom-left">🌱</div>
-    <div class="nature-decoration leaf-bottom-right">🍃</div>
-
     """,
     unsafe_allow_html=True
 )
 
-
-# ============================================================
-# TITLE
 # ============================================================
 
 st.title("📱 SMS Spam & Phishing Filter")
