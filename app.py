@@ -241,6 +241,17 @@ st.markdown(
         margin-top: 20px;
     }
 
+    /* Fix SMS input text visibility */
+.stTextArea textarea {
+    color: #1f2937 !important;
+    background-color: #ffffff !important;
+    caret-color: #1f2937 !important;
+}
+
+.stTextArea textarea::placeholder {
+    color: #6b7280 !important;
+    opacity: 1 !important;
+}
     </style>
 
     <!-- Nature decorations -->
